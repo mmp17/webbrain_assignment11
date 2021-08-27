@@ -1,0 +1,127 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    
+}
+
+.bg-image {
+    background-image: url(img/background.jpg);
+    height: 100%;
+    width: auto;
+    background-size: cover;
+    
+}
+
+.payment-form{
+    background-color: white;
+    position: absolute;
+    height: fit-content;
+    width: 400px;
+    margin-top: 200px;
+    margin-left: 40%;
+    padding: 0px;
+    border-radius: 6px;
+    box-sizing: border-box;
+}
+
+.form-head{
+    background-color: white;
+    width: 400px;
+    height: 60px; 
+    text-align: center;  
+    margin-top: 40px;
+    font-weight: 600;
+    
+}
+
+.payment-types{
+    display: flex;
+    background-color: white;
+    width: 400px;
+    height: 70px;
+    border: 0.1px solid gray; 
+}
+
+.payment-mastercard{
+    display: flex;
+    background-color: white;
+    width: 400px;
+    height: 70px;
+    border: 0.1px solid gray; 
+}
+
+#mastercard{
+    color: black !important;  
+    font-weight: 700;
+}
+
+.checked{
+    margin-top: 15px;
+    padding: 5px;
+    margin-left: 120px; 
+    text-align: right;
+}
+
+.payment-mastercard:hover {
+    background-color: rgb(240, 238, 238);
+    font-weight: 600;
+}
+
+.payment-types:hover {
+    background-color: rgb(240, 238, 238);
+    font-weight: 600;
+}
+
+.payment-logo{
+    width: 25%;
+    padding: 15px;
+}
+
+.payment-text{
+    margin-top: 22px;
+    color: gray;
+}
+
+
+.nextstep{
+    display: flex;
+    row-gap: 0;
+    background-color: rgb(89, 139, 221);
+    text-align: center; 
+    margin: 0;
+    padding: 0;
+    width: 400px;
+    height: 50px;
+    color: white;
+    border-bottom-right-radius: 6px;
+    border-bottom-left-radius: 6px;
+    border: none;
+}
+
+.nextstep:hover {
+    font-weight: 600;
+    opacity: 0.8;
+}
+
+.nextstep:active {
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+}
+
+.nextstep-text{
+    margin-top: 18px;
+    margin-left: 0px;
+    text-align: right;
+    width: 55%;
+    font-size: 10px;
+    font-weight: 550;
+}
+
+.nextstep-arrow{
+    margin-top: 10px;
+    padding: 5px;
+    margin-left: 0px;
+}
+
+
